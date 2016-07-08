@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>Ken</id>
+        <id>Dave</id>
         <version>1.0.3</version>
-        <authors>mleyb</authors>
+        <authors>dmarjoram</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Ken.</description>
+        <description>Dave.</description>
     </metadata>
     <files>
-        <file src="Ken.js" target="content\Scripts\Ken.js" />
+        <file src="Dave.js" target="content\Scripts\Dave.js" />
     </files>
 </package>
