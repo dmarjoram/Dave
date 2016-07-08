@@ -1,14 +1,14 @@
 (function () {
-    var Ken = function (params) {
-        return new ken(params);
+    var Dave = function (params) {
+        return new dave(params);
     };
      
-    var ken = function (params) {
+    var dave = function (params) {
         var selector = document.querySelectorAll(params), i = 0;
 
         this.length = selector.length;
 		
-        this.version = '1.0.0';
+        this.version = '1.0.3';
          
         for (; i < this.length; i++) {
             this[i] = selector[i];
@@ -17,15 +17,15 @@
         return this;        
     };
  
-    Ken.fn = ken.prototype = {
-        ken: function () {
-			window.document.write('Ken.');
+    Dave.fn = dave.prototype = {
+        dave: function () {
+			window.document.write('Dave.');
             return this;
         }
      };
  
-    if (!window.Ken) {
-        window.Ken = Ken;
+    if (!window.Dave) {
+        window.Dave = dave;
     }
 })();
  
