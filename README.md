@@ -1,15 +1,23 @@
-##Ken.js##
+##Dave.js##
 
-Installation
+**Introduction**
+
+Dave is like Ken, only more familiar.
+
+Like a faithful Labrador, lying by the fire in your country house, Dave is loyal.
+
+Everybody knows a Dave.
+
+**Installation**
 
 Bower
 
-> bower install Ken
+> bower install Dave
 
-NuGet (https://www.nuget.org/packages/Ken)
+NuGet (https://www.nuget.org/packages/Dave)
 
-> install-package Ken
+> install-package Dave
 
-Usage
+**Usage**
 
-> **Ken('your css selector').ken();**
+> **Dave('your css selector').dave();**
